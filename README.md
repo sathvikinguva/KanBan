@@ -43,7 +43,7 @@ A modern, feature-rich Kanban board application built with React, TypeScript, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/KanBan.git
+   git clone https://github.com/sathvikinguva/KanBan.git
    cd KanBan
    ```
 

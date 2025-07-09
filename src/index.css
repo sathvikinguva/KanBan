@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide Scrollbar - Invisible Scrolling */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+  width: 0px;
+  height: 0px;
+}
+
+/* Enhanced Dark mode scrollbar - also invisible */
+.dark ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+.dark ::-webkit-scrollbar-corner {
+  background: transparent;
+  width: 0px;
+  height: 0px;
+}
+
+/* Enhanced Firefox scrollbar - invisible */
+* {
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+.dark * {
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+/* All custom scrollbar classes - invisible scrolling */
+.scrollable-area::-webkit-scrollbar,
+.animated-scrollbar::-webkit-scrollbar,
+.rainbow-scrollbar::-webkit-scrollbar,
+.premium-scrollbar::-webkit-scrollbar,
+.neon-scrollbar::-webkit-scrollbar,
+.glass-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+.scrollable-area::-webkit-scrollbar-track,
+.animated-scrollbar::-webkit-scrollbar-track,
+.rainbow-scrollbar::-webkit-scrollbar-track,
+.premium-scrollbar::-webkit-scrollbar-track,
+.neon-scrollbar::-webkit-scrollbar-track,
+.glass-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+.scrollable-area::-webkit-scrollbar-thumb,
+.animated-scrollbar::-webkit-scrollbar-thumb,
+.rainbow-scrollbar::-webkit-scrollbar-thumb,
+.premium-scrollbar::-webkit-scrollbar-thumb,
+.neon-scrollbar::-webkit-scrollbar-thumb,
+.glass-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 0px;
+  height: 0px;
+}
+
+/* Invisible scrolling - no visual scrollbars */
+/* Content remains scrollable but scrollbars are completely hidden */
